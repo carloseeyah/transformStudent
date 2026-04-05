@@ -1,6 +1,6 @@
 # Bonus in-class exercise on the use of transform and transition
 
-- Download fork the repository https://github.com/atlmendoza/transformStudent.git into your own and edit clone it to your VSCode for editing
+- Download fork the repository https://github.com/atlmendoza/transformStudent.git into your own and then clone it inside your VSCode for editing
 
 <img width="1344" height="457" alt="image" src="https://github.com/user-attachments/assets/02176d4f-3987-4de7-9794-593702778968" />
 
