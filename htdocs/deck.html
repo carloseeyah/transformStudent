@@ -12,6 +12,7 @@
 			* {
 				box-sizing: border-box;
 			}
+
 			#deck{
 				width: 50vw;
 				height: 50vh;
@@ -28,10 +29,34 @@
 				font-size: 2em;
 				padding: 5px;
 				font-weight: bold;
+				position: absolute;
+				transform-origin: bottom left;
+				transition: all 0.5s;
 			}
+
 			#deck div:hover{
 				border: 3px solid yellow;
 			}
+			#deck:hover div:first-child{
+				transform: rotate(-45deg);
+			} 
+
+			#deck:hover div:nth-child(2){
+				transform: rotate(-30deg);
+			}
+
+			#deck:hover div:nth-child(3){
+				transform: rotate(-15deg);
+			}
+
+			#deck:hover div:nth-child(4){
+				transform: rotate(0deg);
+			}
+
+			#deck:hover div:nth-child(5){
+				transform: rotate(15deg);
+			}
+
 			#deck div:first-child:hover{
 				background-color: yellow;
 			}
@@ -56,15 +81,16 @@
 				padding: 5px;
 				margin: 10px auto;
 			}
+
 		</style>
 	</head>
 	<body>
 		<div id="deck">
 			<div> &#9824;</div>
 			<div> &#127808;</div>
-			<div>	&#9670;</div>
-			<div>	&#10084;</div>
-      <div> &#127183;</div>
+			<div> &#9670;</div>
+			<div> &#10084;</div>
+      		<div> &#127183;</div>
 		</div>
     <a href="../index.html"><button> Click me for Home</button> </a>
 	</body>
